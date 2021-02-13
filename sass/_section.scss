@@ -1,0 +1,19 @@
+section {
+    background-color: $primaryColor;
+    color: $secondaryColor;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25rem;
+
+    &:nth-of-type(odd) {
+
+        background-image: url("img/Image1.jpg");
+        // background-image: url("https://picsum.photos/800/600?random=1");
+        background-size: cover;
+
+
+    }
+}
