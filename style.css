@@ -350,11 +350,37 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 25rem;
+  min-height: 25rem;
+  padding: 3rem 5rem;
 }
 section:nth-of-type(odd) {
   background-image: url("img/Image1.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+section:nth-of-type(odd) p {
+  background-color: #f4f4f4;
+  color: #282e34;
+  padding: 1.25rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+section:first-of-type {
+  background-image: url("img/Image1.jpg");
+  height: 100vh;
+}
+section:nth-child(3) {
+  background-image: url("img/Image2.jpg");
+}
+section:nth-child(5) {
+  background-image: url("img/Image3.jpg");
+}
+section:nth-child(7) {
+  background-image: url("img/Image1.jpg");
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
