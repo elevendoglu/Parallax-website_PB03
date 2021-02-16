@@ -12,6 +12,7 @@ section {
     &:nth-of-type(odd) {
 
         background-image: url("img/Image1.jpg");
+        height: 100vh;
         // background-image: url("https://picsum.photos/800/600?random=1");
         background-size: cover;
         background-position: center;
@@ -33,6 +34,10 @@ section {
 //         background-image: url("img/Image1.jpg");
 //         height: 100vh;
 //     }
+    // &:nth-child(2) {
+    //     background-image: url("img/Image1.jpg");
+    //     height: 100vh;
+    // }
 
     &:nth-child(4) {
         background-image: url("img/Image2.jpg");

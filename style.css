@@ -355,6 +355,7 @@ section {
 }
 section:nth-of-type(odd) {
   background-image: url("img/Image1.jpg");
+  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
